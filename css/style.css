@@ -12,22 +12,16 @@ height: 50px;}
 a{text-decoration: none;
 padding-right: 20px;
 color: azure;}
-.nav{align-items: center;
-}
-
+.nav{align-items: center;}
 .verde{color: green;}
-.blanco{color: white;
-text-size-adjust: 2px;}
 .fotobsas1{background-image: url(../img/ba1.jpg);
-   /* display: flex;*/
-   align-items: left;
-background-position: center center;
 background-repeat: no-repeat;
 background-size: 100% 100%;
 height: 350px;
 color: white;}
-/*.textoderecha{width: 40%;
-;}*/
-.textoderecha{position: relative;}
-.text-center{display: block;margin: auto;}
-.container{position: relative;}
+.textoderecha{position: relative; overflow: auto; width:40%; justify-content: end;text-align: right;}
+.text-center{display: block; margin: auto;}
+.fotos{display: flex; justify-content: center;}
+.destino-nav{scroll-margin-top: 4rem;}
+.honolulu{overflow: auto;}
+.fw-light{font-size: 40%;}
